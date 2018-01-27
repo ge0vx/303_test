@@ -5,6 +5,21 @@ class Cars extends React.Component {
     render() {
         return (
             <table>
+                <thead>
+                    <tr>
+                                <th>name</th>
+                                <th>model</th>
+                                <th>manufacturer</th>
+                                <th>cost_in_credits</th>
+                                <th>length</th>
+                                <th>max_atmosphering_speed</th>
+                                <th>passengers</th>
+                                <th>cargo_capacity</th>
+                                <th>consumables</th>
+                                <th>vehicle_class</th>
+                                <th>url</th>
+                    </tr>
+                </thead>
                 <tbody>
                 {
                     this.props.cars.map(function(car,i){
